@@ -34,7 +34,8 @@ THEN the saved events persist
 
 The following animation demonstrates the application functionality:
 
-![Calendar](./Assets/images/app-image.png) and ![mobile view](./Assets/images/mobile)
+![Calendar](./Assets/images/app-image.png) 
+![mobile view](./Assets/images/mobile)
 
-Deployed url (https://amccorkl.github.io/What-s_Happening_Today-/)
+Deployed url https://amccorkl.github.io/What-s_Happening_Today-/
 
