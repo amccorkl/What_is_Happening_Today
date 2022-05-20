@@ -1,0 +1,124 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: #06aed5;
+  color: white;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+
+.description {
+  white-space: pre-wrap;
+}
+
+.time-block {
+  text-align: center;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px ;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;
+}
+
+.textarea {
+  border: 1px solid black;
+}
+
+.hour {
+  background-color: #06aed5;  
+  color: white;
+  border-top: 1px dashed #000000;
+  padding: 2%;
+  padding-left: inherit;
+}
+
+.past {
+  background-color: #d3d3d3;
+  color: green;
+  font-weight: bolder;
+}
+
+.present {
+  background-color: #06aed5;;
+  color: white;
+  font-weight: bolder;
+}
+
+.future {
+  background-color: #a8c7ce;
+  color: black;
+  font-weight: bolder;
+}
+
+.saveBtn {
+  border: 1px solid black;
+  background-color: #06aed5;
+  color: white;
+  padding-left: inherit;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.clear-btn {
+  border: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06aed5;
+  color: white;
+  padding-left: inherit;
+}
+
+.clear-btn i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* resize the header text*/
+@media screen and (max-width: 750px) {
+  .display-3 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width:500px) {
+  textarea {
+    font-size: 80%
+  }
+  .btn {
+    font-size: 80%
+  }
+  .hour {
+    font-size: 80%;
+    padding-top: 6%;
+  }
+  
+}
+
+@media screen and (max-width: 375px) {
+  .btn {
+    font-size: 70%
+  }
+  .hour {
+    font-size: 70%;
+  }
+}
