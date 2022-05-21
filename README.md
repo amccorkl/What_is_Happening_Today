@@ -32,10 +32,10 @@ WHEN I refresh the page
 THEN the saved events persist
 ```
 
-The following animation demonstrates the application functionality:
+The following animation demonstrates the application:
 
-![Calendar](./Assets/images/app-image.png) 
-![mobile view](./Assets/images/mobile)
+![Calendar Desktop view](./Assets/images/app-image.png) 
+![Mobile view](./Assets/images/mobile_app_image.jpeg)
 
-Deployed url https://amccorkl.github.io/What-s_Happening_Today-/
+Deployed url https://amccorkl.github.io/What_is_Happening_Today-/
 
